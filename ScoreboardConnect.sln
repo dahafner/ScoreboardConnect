@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31613.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TpTools", "TpLoader\TpTools.csproj", "{E06556B7-DDEF-4B09-ACF0-9E4F62BE3E39}"
 EndProject
@@ -9,9 +9,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoreboardConnectWinUI3", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTp", "TestTp\TestTp.csproj", "{219C64F0-B33E-4451-A5D3-4147165B6349}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ScoreboardConnectSetup", "ScoreboardConnectSetup\ScoreboardConnectSetup.vdproj", "{132222A0-AD74-49F2-A49E-185F1A134C1D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreboardConnectUpdate", "ScoreboardConnectUpdate\ScoreboardConnectUpdate.csproj", "{D470C124-000D-4456-9D5A-85E6759E219E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreboardApiLib", "..\ScoreboardLiveApiExample\ScoreboardApiLib\ScoreboardApiLib.csproj", "{D1AED138-2E01-4703-A37F-DBDF67C2F007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreboardApiTest", "..\ScoreboardLiveApiExample\ScoreboardApiTest\ScoreboardApiTest.csproj", "{579D470E-4063-4260-A4BE-F96B9AB7112F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreboardLiveApiExample", "..\ScoreboardLiveApiExample\ScoreboardLiveApiExample\ScoreboardLiveApiExample.csproj", "{D1BCD483-425E-4D3C-9914-1DFA2C215AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E93AC12C-80FC-45D5-87A0-FC4A167D4A0E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,12 +40,22 @@ Global
 		{219C64F0-B33E-4451-A5D3-4147165B6349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219C64F0-B33E-4451-A5D3-4147165B6349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219C64F0-B33E-4451-A5D3-4147165B6349}.Release|Any CPU.Build.0 = Release|Any CPU
-		{132222A0-AD74-49F2-A49E-185F1A134C1D}.Debug|Any CPU.ActiveCfg = Debug
-		{132222A0-AD74-49F2-A49E-185F1A134C1D}.Release|Any CPU.ActiveCfg = Release
 		{D470C124-000D-4456-9D5A-85E6759E219E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D470C124-000D-4456-9D5A-85E6759E219E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D470C124-000D-4456-9D5A-85E6759E219E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D470C124-000D-4456-9D5A-85E6759E219E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AED138-2E01-4703-A37F-DBDF67C2F007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AED138-2E01-4703-A37F-DBDF67C2F007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AED138-2E01-4703-A37F-DBDF67C2F007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AED138-2E01-4703-A37F-DBDF67C2F007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579D470E-4063-4260-A4BE-F96B9AB7112F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579D470E-4063-4260-A4BE-F96B9AB7112F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579D470E-4063-4260-A4BE-F96B9AB7112F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579D470E-4063-4260-A4BE-F96B9AB7112F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BCD483-425E-4D3C-9914-1DFA2C215AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BCD483-425E-4D3C-9914-1DFA2C215AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BCD483-425E-4D3C-9914-1DFA2C215AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BCD483-425E-4D3C-9914-1DFA2C215AB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
