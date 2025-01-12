@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using TP;
 using ScoreboardLiveApi;
 using System.Threading.Tasks;
 using System.Data.Odbc;
 using System.Security.Cryptography;
+using TP.Helpers;
 
 namespace TP {
-  public class Converter {
+  public class Converter2 {
     static readonly PlaceMap Places = new PlaceMap();
 
     private class IntermediateLink {

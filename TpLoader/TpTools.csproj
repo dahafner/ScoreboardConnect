@@ -7,14 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="_old\**" />
-    <EmbeddedResource Remove="_old\**" />
-    <None Remove="_old\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Remove="Converter.cs" />
-    <Compile Remove="Loader.cs" />
     <Compile Remove="TournamentClass.cs" />
   </ItemGroup>
 

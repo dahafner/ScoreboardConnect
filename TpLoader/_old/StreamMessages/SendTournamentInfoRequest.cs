@@ -8,7 +8,7 @@ namespace TP {
   public class SendTournamentInfoRequest : XMLBase {
     public string MessageID { get; } = "SENDTOURNAMENTINFO";
     public string Password { get; set; }
-    public IPAddress IP { get; set; }
+    public string IP { get; set; }
     public (int low, int high) Version { get; set; } = (1, 1);
     public string Unicode { get; set; } = "202201171939355343";
 
